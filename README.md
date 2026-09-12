@@ -1,5 +1,7 @@
 # MAIA-Lite
 
+![Maia](<images/ChatGPT Image 12 de set. de 2026, 10_05_17.png>)
+
 ### Machine Artificial Intelligence Architecture
 
 **MAIA-Lite** is an open-source research project for building compact, understandable, multilingual Large Language Models from the ground up.
