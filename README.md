@@ -570,31 +570,13 @@ Suggested citation:
 
 **Maia-Lite is currently an experimental research project.**
 
-The current development stage includes:
+## Supervised Fine-Tuning
 
-```text
-[✓] Transformer architecture study
-[✓] Technical documentation
-[✓] Initial Maia-Lite-335M design
+The supervised fine-tuning (SFT), validation, benchmarking, LoRA training, model merging, and deployment pipeline used for Maia Lite is maintained in a separate repository:
 
-[→] Wikipedia multilingual corpus preparation
-[→] Maia-Lite-335M pretraining
-[→] Scientific paper extraction
-[→] Scientific QA generation
-[→] English dataset construction
-[→] Portuguese translation
-[→] Spanish translation
+**[Maia SFT Validation](https://github.com/souzamonteiro/maia-sft-validation)**
 
-[ ] Dataset validation
-[ ] Scientific supervised fine-tuning
-[ ] Multilingual evaluation
-[ ] Scientific benchmark evaluation
-[ ] Hugging Face release
-[ ] GGUF conversion
-[ ] Ollama deployment
-```
-
-The roadmap will evolve as experimental results become available.
+This repository contains the reproducible pipeline used to produce and validate the fine-tuned Maia Lite releases.
 
 ---
 
