@@ -1,0 +1,11 @@
+priority,dataset_id,url,languages,proposed_domain,license_and_caveats,review_status,next_action
+P0,HuggingFaceFW/fineweb-2,https://huggingface.co/datasets/HuggingFaceFW/fineweb-2,pt;es;multilingual,language,ODC-BY-1.0; Common Crawl terms,pending_review,streaming sample
+P0,wikimedia/wikipedia,https://huggingface.co/datasets/wikimedia/wikipedia,pt;en;es,language;educational,CC-BY-SA/GFDL; page-specific,pending_review,streaming sample
+P0,OpenAssistant/oasst1,https://huggingface.co/datasets/OpenAssistant/oasst1,pt-BR;en;es,dialogue,Apache-2.0,pending_review,small sample
+P1,HuggingFaceFW/fineweb-edu,https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu,en,educational,verify current terms and Common Crawl,pending_review,streaming sample
+P1,allenai/peS2o,https://huggingface.co/datasets/allenai/peS2o,en,educational,ODC-BY; original sources review,pending_review,sample
+P1,allenai/dolma,https://huggingface.co/datasets/allenai/dolma,en,language;educational,ODC-BY; original sources review,pending_review,shards only
+P2,HuggingFaceH4/ultrachat_200k,https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k,en,dialogue_synthetic,MIT declared; generated data terms,pending_review,SFT candidate
+P2,HuggingFaceTB/smol-smoltalk,https://huggingface.co/datasets/HuggingFaceTB/smol-smoltalk,en,dialogue_synthetic,Apache-2.0 declared,pending_review,SFT candidate
+EVAL,openai/gsm8k,https://huggingface.co/datasets/openai/gsm8k,en,math_benchmark,MIT,reserved_for_eval,freeze test
+EVAL,allenai/ai2_arc,https://huggingface.co/datasets/allenai/ai2_arc,en,reasoning_benchmark,CC-BY-SA-4.0,reserved_for_eval,freeze eval
