@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "PENDING_HUMAN_REVIEW",
+  "inventory_sha256": "ad19d1d98e2cf5b91e650f343e6430bbde34b549b5fbc352b47682a91d7ab562",
+  "scope": "wikipedia_pt remaining 650 chunks; model release all sources",
+  "technical_audit": {
+    "scanned_chunks": 650,
+    "scanned_records": 313162,
+    "status": "COMPLETE_PENDING_HUMAN_REVIEW"
+  },
+  "upstream": {
+    "dataset_id": "wikimedia/wikipedia",
+    "revision_claimed": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "config": "20231101.pt",
+    "exact_revision_verified": false
+  },
+  "blocking_items": [
+    "resolve dataset card cc-by-sa-3.0/gfdl versus internal CC-BY-SA-4.0",
+    "verify exact revision",
+    "assess third-party exceptions",
+    "approve attribution strategy",
+    "human legal/rights signoff",
+    "review other training sources for public release"
+  ],
+  "approval_granted": false
+}
