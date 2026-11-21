@@ -1,0 +1,79 @@
+id,category,language,prompt,expected,mode,answer,generated_tokens,seconds,temperature,repeat,seed,correct,repetition_3gram,error
+factual_001,factual,pt,Qual é a capital do Brasil?,brasília,contains,A capital do Brasil é Brasília.,7,0.352,0.0,0,20261121,1,0.0,
+factual_002,factual,pt,Qual é a capital da França?,paris,contains,A capital da França é Paris.,7,0.349,0.0,0,20261121,1,0.0,
+factual_003,factual,pt,Qual é a capital do Japão?,tóquio,contains,A capital do Japão é Tóquio.,7,0.351,0.0,0,20261121,1,0.0,
+factual_004,factual,pt,Em qual continente fica o Brasil?,américa do sul,contains,"O Brasil fica no continente americano, na América do Sul.",12,0.563,0.0,0,20261121,1,0.0,
+factual_005,factual,pt,Quantos dias tem uma semana?,7,contains,A semana tem 365 dias.,6,0.306,0.0,0,20261121,0,0.0,
+factual_006,factual,pt,Qual planeta é conhecido como planeta vermelho?,marte,contains,"O planeta vermelho é o planeta mais próximo do Sol, com uma distância de aproximadamente 1.000 anos-luz (1.200 parsecs) da Terra.",34,1.58,0.0,0,20261121,0,0.0,
+factual_007,factual,pt,Qual é o maior oceano da Terra?,pacífico,contains,O maior oceano da Terra é o Oceano Atlântico.,10,0.497,0.0,0,20261121,0,0.0,
+factual_008,factual,pt,Qual é o idioma oficial do Brasil?,português,contains,O idioma oficial do Brasil é o português.,9,0.433,0.0,0,20261121,1,0.0,
+instrucao_estrita_011,instrucao_estrita,pt,Diga apenas a palavra azul.,azul,exact,"A palavra azul é uma palavra que significa ""vermelho"" em inglês.",16,0.76,0.0,0,20261121,0,0.0,
+instrucao_estrita_012,instrucao_estrita,pt,"Responda somente SIM, em maiúsculas.",SIM,exact,"Sim, em maiúsculas.",8,0.395,0.0,0,20261121,0,0.0,
+instrucao_estrita_013,instrucao_estrita,pt,Escreva apenas o número 42.,42,exact,"O número 42 é um número natural, que não possui nenhum símbolo especial. Ele é o número mais comum e conhecido em todo o mundo.",28,1.334,0.0,0,20261121,0,0.0,
+instrucao_estrita_014,instrucao_estrita,pt,Responda somente com a palavra gato.,gato,exact,"O gato é um animal que possui uma grande variedade de cores e padrões, sendo considerado o maior felino do mundo.",24,1.148,0.0,0,20261121,0,0.0,
+instrucao_estrita_015,instrucao_estrita,pt,Escreva exatamente: OK,OK,exact,"Ok, I'm sorry.",6,0.315,0.0,0,20261121,0,0.0,
+instrucao_estrita_016,instrucao_estrita,pt,Responda apenas não.,não,exact,"Claro, eu posso ajudar.",6,0.312,0.0,0,20261121,0,0.0,
+instrucao_estrita_017,instrucao_estrita,pt,Escreva apenas a letra A.,A,exact,A.,2,0.132,0.0,0,20261121,0,0.0,
+instrucao_estrita_018,instrucao_estrita,pt,Diga somente verde.,verde,exact,"O verde é um dos tons mais populares e versáteis da paleta de cores. Ele pode ser usado em uma variedade de estilos, desde o clássico ao moderno. Aqui estão algumas dicas para usar o verde:
+
+1. Combinação com outros tons de azul:",56,2.579,0.0,0,20261121,0,0.0,
+logica_021,logica,pt,"Se Ana é mais velha que Bia, quem é mais nova?",bia,contains,Ana é mais velha que Bia.,9,0.451,0.0,0,20261121,1,0.0,
+logica_022,logica,pt,"Se João é mais alto que Pedro, quem é mais baixo?",pedro,contains,"João é mais alto que Pedro, mas não é o mesmo.",13,0.635,0.0,0,20261121,1,0.0,
+logica_023,logica,pt,Maria tem 3 maçãs e ganha 2. Quantas tem?,5,contains,Maria tem 3 maçãs e ganha 2.,9,0.448,0.0,0,20261121,0,0.0,
+logica_024,logica,pt,"Se A vem antes de B, qual vem depois?",b,contains,"Se A vem antes de B, qual vem depois?",11,0.54,0.0,0,20261121,1,0.0,
+logica_025,logica,pt,Carlos é irmão de Ana. Ana é irmã de Carlos? Responda sim ou não.,sim,contains,Carlos é irmão de Ana. Carlos é irmão de Ana.,12,0.584,0.0,0,20261121,0,0.375,
+logica_026,logica,pt,Um objeto está dentro de uma caixa. Onde está o objeto?,caixa,contains,O objeto está dentro de uma caixa.,8,0.405,0.0,0,20261121,1,0.0,
+logica_027,logica,pt,"Se hoje é segunda-feira, que dia é amanhã?",terça-feira,contains,Hoje é segunda-feira.,6,0.312,0.0,0,20261121,0,0.0,
+logica_028,logica,pt,"Se o copo A está cheio e o B está vazio, qual está vazio?",b,contains,O copo A está cheio e o copo B está vazio.,12,0.579,0.0,0,20261121,1,0.0,
+matematica_031,matematica,pt,Quanto é 7 + 5?,12,number,7 + 5 = 7,5,0.265,0.0,0,20261121,0,0.0,
+matematica_032,matematica,pt,Quanto é 9 - 4?,5,number,9 - 4 é um número que representa a soma de dois números.,14,0.672,0.0,0,20261121,0,0.0,
+matematica_033,matematica,pt,Quanto é 6 vezes 3?,18,number,6 vezes 3 é igual a 6.,8,0.4,0.0,0,20261121,0,0.0,
+matematica_034,matematica,pt,Quanto é 20 dividido por 4?,5,number,"20 é dividido por 4, ou seja, é dividido por 4.",14,0.674,0.0,0,20261121,0,0.2222,
+matematica_035,matematica,pt,Quanto é 11 + 13?,24,number,11 + 13 é um número natural.,8,0.4,0.0,0,20261121,0,0.0,
+matematica_036,matematica,pt,Quanto é 8 vezes 7?,56,number,8 vezes 7 é igual a 8 vezes 7.,10,0.492,0.0,0,20261121,0,0.1429,
+matematica_037,matematica,pt,Quanto é 100 menos 37?,63,number,"O valor de 100 menos 37 é igual a 0,024.",14,0.693,0.0,0,20261121,0,0.0,
+matematica_038,matematica,pt,Quanto é 3 ao quadrado?,9,number,"O número 3 é um número natural, e sua soma é 3.",14,0.697,0.0,0,20261121,0,0.0,
+ingles_041,ingles,en,What is the capital of Brazil?,brasilia,contains,The capital of Brazil is Rio de Janeiro.,9,0.463,0.0,0,20261121,0,0.0,
+ingles_042,ingles,en,Say only the word blue.,blue,exact,"I'm sorry, but I don't understand your question.",12,0.599,0.0,0,20261121,0,0.0,
+ingles_043,ingles,en,"If Alice is older than Beth, who is younger?",beth,contains,"If Alice is older than Beth, who is younger?",11,0.543,0.0,0,20261121,1,0.0,
+ingles_044,ingles,en,What is 8 plus 5?,13,contains,"8 plus 5 is a mathematical expression that describes the sum of the squares of two numbers. It is used to describe the number of squares in a given number, and it is often used as a way to express the number of times a number has been divided by another number.",56,2.585,0.0,0,20261121,0,0.02,
+ingles_045,ingles,en,What is the capital of France?,paris,contains,The capital of France is Paris.,7,0.358,0.0,0,20261121,1,0.0,
+ingles_046,ingles,en,Reply with exactly YES.,YES,exact,"Sure! Here's the correct answer:
+
+""YES"" is a combination of ""y"" and ""ee"".",26,1.223,0.0,0,20261121,0,0.0,
+ingles_047,ingles,en,What is 3 times 7?,21,contains,"3 times 7 is a mathematical expression that describes the number of times a number can be divided by itself. It is used to describe the number of times a number can be divided by itself, and it is often used in mathematics to describe the number of times a number can be divided",56,2.566,0.0,0,20261121,0,0.3462,
+ingles_048,ingles,en,Which planet is called the red planet?,mars,contains,The red planet is named after the red star that is the center of the solar system. The planet is named after the red star because it is the only planet in the solar system that is red.,40,1.877,0.0,0,20261121,0,0.1667,
+espanhol_051,espanhol,es,¿Cuál es la capital de Brasil?,brasilia,contains,La capital de Brasil es Río de Janeiro.,9,0.45,0.0,0,20261121,0,0.0,
+espanhol_052,espanhol,es,Di solamente la palabra azul.,azul,exact,"La palabra azul es una palabra que se utiliza para indicar un color o una tonalidad de color. La palabra azul puede ser utilizada para indicar diferentes colores, como el rojo, el verde, el amarillo y el azul marino.",45,2.184,0.0,0,20261121,0,0.027,
+espanhol_053,espanhol,es,"Si Ana es mayor que Bia, ¿quién es menor?",bia,contains,"Si Ana es mayor que Bia, ¿quién es menor?",13,0.643,0.0,0,20261121,1,0.0,
+espanhol_054,espanhol,es,¿Cuánto es 8 más 5?,13,contains,El número de 8 es el número más grande que se puede encontrar en la tabla periódica.,18,0.855,0.0,0,20261121,0,0.0,
+espanhol_055,espanhol,es,¿Cuál es la capital de Francia?,parís,contains,La capital de Francia es París.,7,0.357,0.0,0,20261121,1,0.0,
+espanhol_056,espanhol,es,Responde exactamente SÍ.,SÍ,exact,"Claro, aquí está la respuesta:
+
+¿Qué tipo de persona eres?",16,0.765,0.0,0,20261121,0,0.0,
+espanhol_057,espanhol,es,¿Cuánto es 3 por 7?,21,contains,"3 por 7 es un número que se utiliza para representar la cantidad de tiempo que tarda en completarse una tarea.
+
+Por ejemplo, si tienes un proyecto y quieres terminarlo en 10 minutos, el 3 por 7 sería el tiempo que tardaría en completarlo.",56,2.564,0.0,0,20261121,0,0.0238,
+espanhol_058,espanhol,es,¿Qué planeta es conocido como planeta rojo?,marte,contains,"El planeta rojo es un planeta extrasolar que orbita alrededor de la estrella roja de tipo G, el cual se encuentra a unos 3.000 años luz del sistema solar.",35,1.647,0.0,0,20261121,0,0.0,
+codigo_061,codigo,pt,"Em Python, escreva uma expressão que some 2 e 3.",2+3,contains,"#define(2, 3):
+    #define(2, 3)
+    #define(2, 3)
+    #define(2, 3)
+    #define(2, 3)
+    #define(2,",56,2.576,0.0,0,20261121,0,0.8,
+codigo_062,codigo,pt,Qual função Python imprime uma mensagem na tela?,print,contains,A função Python imprime uma mensagem na tela.,10,0.493,0.0,0,20261121,0,0.0,
+codigo_063,codigo,pt,"Em Python, qual palavra-chave define uma função?",def,contains,A palavra-chave define uma função.,8,0.406,0.0,0,20261121,0,0.0,
+codigo_064,codigo,pt,"Em Python, qual função retorna o tamanho de uma lista?",len,contains,A função return_size() retorna o tamanho de uma lista.,13,0.638,0.0,0,20261121,0,0.0,
+codigo_065,codigo,pt,Qual é o operador de igualdade em Python?,==,contains,"O operador de igualdade em Python é o operador ""+"".",12,0.609,0.0,0,20261121,0,0.0,
+parafrase_066,parafrase,pt,"Se Ana é mais velha que Bia, quem é mais jovem?",bia,contains,"Ana é mais velha que Bia, e Bia é mais jovem.",16,0.796,0.0,0,20261121,1,0.0,
+parafrase_067,parafrase,pt,Ana tem mais idade que Bia. Quem tem menos idade?,bia,contains,A idade de Ana é de 18 anos.,9,0.466,0.0,0,20261121,0,0.0,
+parafrase_068,parafrase,pt,"Entre Ana e Bia, Ana nasceu antes. Quem nasceu depois?",bia,contains,Ana e Bia nasceram antes de Ana e Bia.,14,0.689,0.0,0,20261121,1,0.1429,
+parafrase_069,parafrase,pt,"Se Pedro é menor que João, quem é maior?",joão,contains,Pedro é o menor dos três filhos de Maria e José.,12,0.586,0.0,0,20261121,0,0.0,
+parafrase_070,parafrase,pt,João supera Pedro em altura. Quem é mais baixo?,pedro,contains,João é o mais baixo dos três.,8,0.399,0.0,0,20261121,0,0.0,
+robustez_instrucao_071,robustez_instrucao,pt,"Responda apenas azul, sem pontuação.",azul,exact,"Claro, eu posso te ajudar.",7,0.356,0.0,0,20261121,0,0.0,
+robustez_instrucao_072,robustez_instrucao,pt,"Responda somente com a palavra azul, sem explicação.",azul,exact,A resposta correta é: a palavra azul.,9,0.455,0.0,0,20261121,0,0.0,
+robustez_instrucao_073,robustez_instrucao,pt,A resposta deve ser exatamente azul.,azul,exact,A resposta correta é: A resposta correta é azul.,11,0.542,0.0,0,20261121,0,0.2857,
+robustez_instrucao_074,robustez_instrucao,pt,Retorne apenas a palavra azul.,azul,exact,"A palavra azul é uma palavra que significa ""vermelho"" em inglês.",16,0.778,0.0,0,20261121,0,0.0,
+robustez_instrucao_075,robustez_instrucao,pt,Escreva uma única palavra: azul.,azul,exact,"O azul é um dos tons mais populares e icônicos da moda. Ele é conhecido por sua cor vibrante, contraste de cores e impacto visual. É uma cor que pode ser usada em vários estilos de roupas, desde o casual até o formal.
+
+A combinação do azul",56,2.577,0.0,0,20261121,0,0.0,

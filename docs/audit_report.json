@@ -1,0 +1,101 @@
+{
+  "status": "STATIC_AND_DATA_CHECKS_COMPLETE",
+  "training_executed": false,
+  "bitwise_resume_tested": false,
+  "human_factual_review_done": false,
+  "dataset_counts": {
+    "train": 29995,
+    "validation": 1521
+  },
+  "files": {
+    "train_sha256": "a3db42463329f32cd56059631b8dfe29da1bc62cb034b919284c77c7603ee37b",
+    "validation_sha256": "25c898dbba576914fdc68b9c83f56007bcce98a1342638495212ab1682000504",
+    "audit_pass_sha256": "b8abe478e67dc3b8245b1ed01aeea028b4a0084585468cff11ca907507eae563"
+  },
+  "causal_checks": {
+    "tested": 1938,
+    "failed": 0
+  },
+  "coverage": [
+    {
+      "split": "train",
+      "status": "accepted",
+      "count": 28857
+    },
+    {
+      "split": "train",
+      "status": "boundary_merge",
+      "count": 392
+    },
+    {
+      "split": "train",
+      "status": "too_long",
+      "count": 746
+    },
+    {
+      "split": "validation",
+      "status": "accepted",
+      "count": 1469
+    },
+    {
+      "split": "validation",
+      "status": "boundary_merge",
+      "count": 20
+    },
+    {
+      "split": "validation",
+      "status": "too_long",
+      "count": 32
+    }
+  ],
+  "checkpoint_metadata": {
+    "base": {
+      "exists": true,
+      "path": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/training_runs/maia_lite_0_3_0_a100_v3_experimental/latest.pt",
+      "size_bytes": 6084855785
+    },
+    "adapter": {
+      "exists": true,
+      "path": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/training_runs/maia_lite_0_3_0_sft_v2_2_lora_v1/adapter_best.pt",
+      "size_bytes": 14200613,
+      "keys": [
+        "adapter",
+        "update",
+        "val_loss",
+        "config"
+      ],
+      "update": 1800,
+      "val_loss": 2.319600362225873,
+      "config": {
+        "rank": 16,
+        "alpha": 32,
+        "dropout": 0.05,
+        "lr": 8e-05,
+        "max_length": 512,
+        "micro_batch": 1,
+        "grad_accum": 16,
+        "epochs": 1,
+        "max_steps": null,
+        "seed": 20261118,
+        "data_hashes": {
+          "train": "a3db42463329f32cd56059631b8dfe29da1bc62cb034b919284c77c7603ee37b",
+          "validation": "25c898dbba576914fdc68b9c83f56007bcce98a1342638495212ab1682000504"
+        },
+        "checkpoint_path": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/training_runs/maia_lite_0_3_0_a100_v3_experimental/latest.pt",
+        "base_step": 300000,
+        "target_modules": [
+          "qkv",
+          "proj"
+        ],
+        "architecture": "MaiaGPT v3.8"
+      }
+    }
+  },
+  "recommendations": [
+    "Não alterar o mascaramento causal existente",
+    "Versionar formato de prompt/resposta antes de novo treino",
+    "Avaliar impacto de MAX_LENGTH=768/1024 em VRAM",
+    "Implementar teste real de retomada determinística",
+    "Conservar benchmark e avaliação humana independentes"
+  ]
+}

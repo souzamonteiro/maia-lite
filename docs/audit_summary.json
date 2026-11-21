@@ -1,0 +1,29 @@
+{
+  "audit": "sft_v2_2_v2_3_qualitative_v1",
+  "seed": 20261119,
+  "train_count": 29995,
+  "validation_count": 1521,
+  "review_sample_count": 420,
+  "random_per_language_split": 35,
+  "risk_enriched_per_language_split": 35,
+  "integrity": {
+    "exact_prompt_overlap_train_val": 0,
+    "exact_pair_overlap_train_val": 0,
+    "duplicate_ids": 0,
+    "empty_prompt": 0,
+    "empty_completion": 0,
+    "group_id_overlap_train_val": 0
+  },
+  "flag_totals": {
+    "empty": 0,
+    "very_short": 4438,
+    "long_answer": 2056,
+    "repeated_trigrams": 826,
+    "starts_as_question": 185,
+    "prompt_echo": 3,
+    "numeric_not_in_prompt": 13750,
+    "unqualified_absolute": 927
+  },
+  "benchmark_rows": null,
+  "status": "AUTOMATED_SCREENING_COMPLETE_HUMAN_REVIEW_PENDING"
+}

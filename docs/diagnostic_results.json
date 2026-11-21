@@ -1,0 +1,616 @@
+{
+  "base_checkpoint": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/training_runs/maia_lite_0_3_0_a100_v3_experimental/latest.pt",
+  "adapter_checkpoint": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/training_runs/maia_lite_0_3_0_sft_exp_200k_lora_v1/adapter_latest.pt",
+  "adapter_update": 5929,
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "top_k": 40,
+    "max_new_tokens": 100,
+    "seed": 20261121
+  },
+  "single_turn": [
+    {
+      "lang": "pt",
+      "category": "saudacao",
+      "question": "Olá! Como você está?",
+      "model": "base_300k",
+      "answer": "Olá!\nVou começar com a primeira parte.\nNo meu caso, eu estou usando o Gmail e a minha conta do Google+, e eu tenho o e-mail do Google+.\nMas eu preciso de um nome de usuário e uma senha, então eu preciso de um nome de usuário e uma senha, e eu preciso de uma senha e um nome de usuário.\nEu preciso de uma senha e um nome de usuário, e eu preciso de um nome de usuário e",
+      "generated_tokens": 100,
+      "prompt_tokens": 15,
+      "seconds": 2.56
+    },
+    {
+      "lang": "pt",
+      "category": "saudacao",
+      "question": "Olá! Como você está?",
+      "model": "lora_final",
+      "answer": "Olá, eu sou um assistente virtual, capaz de interagir com você em tempo real, através de comandos de voz e comandos de texto.",
+      "generated_tokens": 29,
+      "prompt_tokens": 15,
+      "seconds": 0.77
+    },
+    {
+      "lang": "pt",
+      "category": "identidade",
+      "question": "Quem é você? Responda em uma frase.",
+      "model": "base_300k",
+      "answer": "- O que você acha de um novo app?\n- O que você acha de um app que você possa usar para falar com outros usuários?\n- O que você acha de um app que possa ser usado como uma ferramenta de comunicação?\n- O que você acha de um app que possa ser usado como um recurso de pesquisa?\n- O que você acha de um app que possa ser usado como um recurso de aprendizagem?\n- O que você acha de um app que possa ser usado como",
+      "generated_tokens": 100,
+      "prompt_tokens": 18,
+      "seconds": 2.58
+    },
+    {
+      "lang": "pt",
+      "category": "identidade",
+      "question": "Quem é você? Responda em uma frase.",
+      "model": "lora_final",
+      "answer": "Sou uma máquina, um computador, um computador.",
+      "generated_tokens": 10,
+      "prompt_tokens": 18,
+      "seconds": 0.28
+    },
+    {
+      "lang": "pt",
+      "category": "fato",
+      "question": "Qual é a capital do Brasil?",
+      "model": "base_300k",
+      "answer": "Cidade:\nEstado:\nPaís:\nEstado:\nPaís:",
+      "generated_tokens": 21,
+      "prompt_tokens": 15,
+      "seconds": 0.54
+    },
+    {
+      "lang": "pt",
+      "category": "fato",
+      "question": "Qual é a capital do Brasil?",
+      "model": "lora_final",
+      "answer": "A capital do Brasil é Brasília, capital do Brasil.",
+      "generated_tokens": 11,
+      "prompt_tokens": 15,
+      "seconds": 0.31
+    },
+    {
+      "lang": "pt",
+      "category": "instrucao",
+      "question": "Diga apenas a palavra azul.",
+      "model": "base_300k",
+      "answer": "Para a pesquisa, digite o nome da pessoa que você quer encontrar e clique em “Fechar pesquisa”.\nSe você quer que seu nome apareça na lista de resultados, clique em “Fechar pesquisa”.\nVocê verá as pesquisas que você fez com os resultados.\nA pesquisa já está aberta e você pode clicar em “Fechar pesquisa” e confirmar a pesquisa.\nSe você quer que seu nome apareça na lista de resultados, clique em “Fechar",
+      "generated_tokens": 100,
+      "prompt_tokens": 15,
+      "seconds": 2.52
+    },
+    {
+      "lang": "pt",
+      "category": "instrucao",
+      "question": "Diga apenas a palavra azul.",
+      "model": "lora_final",
+      "answer": "A palavra azul é uma cor azul-esverdeada, e é a mais associada à vida em cores.",
+      "generated_tokens": 22,
+      "prompt_tokens": 15,
+      "seconds": 0.58
+    },
+    {
+      "lang": "pt",
+      "category": "logica",
+      "question": "Se Ana é mais velha que Bia, quem é mais nova?",
+      "model": "base_300k",
+      "answer": "Sonia\nAtenção: É importante que você seja capaz de responder a todas as perguntas e também seja capaz de responder às perguntas de Ana. Se você não conseguir, será reprovado.\nO que você quer dizer com o verbo “assim”?\nEm outras palavras, o verbo “assim” tem dois significados diferentes:\n– “assim” – “comum”\n– “comum” – “comum”\n– “assim” – “comum",
+      "generated_tokens": 100,
+      "prompt_tokens": 22,
+      "seconds": 2.57
+    },
+    {
+      "lang": "pt",
+      "category": "logica",
+      "question": "Se Ana é mais velha que Bia, quem é mais nova?",
+      "model": "lora_final",
+      "answer": "Ana é mais velha que Bia.",
+      "generated_tokens": 9,
+      "prompt_tokens": 22,
+      "seconds": 0.26
+    },
+    {
+      "lang": "pt",
+      "category": "incerteza",
+      "question": "Qual é a minha profissão?",
+      "model": "base_300k",
+      "answer": "Qual é a minha profissão?",
+      "generated_tokens": 10,
+      "prompt_tokens": 14,
+      "seconds": 0.25
+    },
+    {
+      "lang": "pt",
+      "category": "incerteza",
+      "question": "Qual é a minha profissão?",
+      "model": "lora_final",
+      "answer": "A profissão de assistente administrativo é uma das profissões mais populares na área de tecnologia da informação e é uma das mais antigas do mundo. A profissão de assistente administrativo é uma das mais antigas e mais antigas do mundo, sendo que a profissão de assistente administrativo se originou nos anos 60.",
+      "generated_tokens": 57,
+      "prompt_tokens": 14,
+      "seconds": 1.48
+    },
+    {
+      "lang": "pt",
+      "category": "explicacao",
+      "question": "Explique em duas frases por que chove.",
+      "model": "base_300k",
+      "answer": "O que você acha que aconteceu na sua sala?\nDesenvolvedor:\nQual foi a sua reação ao ter que deixar o seu computador na chuva?",
+      "generated_tokens": 36,
+      "prompt_tokens": 18,
+      "seconds": 0.92
+    },
+    {
+      "lang": "pt",
+      "category": "explicacao",
+      "question": "Explique em duas frases por que chove.",
+      "model": "lora_final",
+      "answer": "As chuvas são causadas pelo vento.",
+      "generated_tokens": 7,
+      "prompt_tokens": 18,
+      "seconds": 0.21
+    },
+    {
+      "lang": "en",
+      "category": "greeting",
+      "question": "Hello! How are you?",
+      "model": "base_300k",
+      "answer": "Hello! How are you?",
+      "generated_tokens": 11,
+      "prompt_tokens": 15,
+      "seconds": 0.27
+    },
+    {
+      "lang": "en",
+      "category": "greeting",
+      "question": "Hello! How are you?",
+      "model": "lora_final",
+      "answer": "I'm a language model that is trained to learn by listening and learning. I have a natural ability to learn by listening and learning and I can understand different languages and understand different types of languages.",
+      "generated_tokens": 39,
+      "prompt_tokens": 15,
+      "seconds": 1.03
+    },
+    {
+      "lang": "en",
+      "category": "identity",
+      "question": "Who are you? Answer in one sentence.",
+      "model": "base_300k",
+      "answer": "A história começa quando o personagem de Alex, entra em uma loja de acessórios e encontra um homem com um telefone. Ele pergunta quem é o homem.\nO que o homem tem a dizer?\nAlex fala que é o homem, que mora com ele e que o tem como um irmão.\nAlex diz que o homem que está na loja é o pai dele, que trabalha lá.\nO homem fala que o pai dele é um homem que vive com ele, que trabalha com ele e que",
+      "generated_tokens": 100,
+      "prompt_tokens": 17,
+      "seconds": 2.55
+    },
+    {
+      "lang": "en",
+      "category": "identity",
+      "question": "Who are you? Answer in one sentence.",
+      "model": "lora_final",
+      "answer": "I am a person who works for a company called Microsoft. I am a professional and I am here to help. I am here to help you with your problems, but also for advice.",
+      "generated_tokens": 38,
+      "prompt_tokens": 17,
+      "seconds": 1.01
+    },
+    {
+      "lang": "en",
+      "category": "fact",
+      "question": "What is the capital of France?",
+      "model": "base_300k",
+      "answer": "- Como você sabe que o seu nome é J.\nAviso:\nO site da empresa J. J. B. B. é o seguinte:\n\"O J. J. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B",
+      "generated_tokens": 100,
+      "prompt_tokens": 15,
+      "seconds": 2.58
+    },
+    {
+      "lang": "en",
+      "category": "fact",
+      "question": "What is the capital of France?",
+      "model": "lora_final",
+      "answer": "The capital of France is Paris. It is a major city in northern France, located in the south-eastern region of France. It is located on the Mediterranean Sea in the western part of France, at an altitude of about 1,560 meters (4,413 feet). It is situated on the French mainland, which is situated in the Atlantic Ocean, in the Mediterranean Sea. The capital of France is located on the left side of the Mediterranean Sea, on the west coast of France",
+      "generated_tokens": 100,
+      "prompt_tokens": 15,
+      "seconds": 2.57
+    },
+    {
+      "lang": "en",
+      "category": "instruction",
+      "question": "Reply with only the word blue.",
+      "model": "base_300k",
+      "answer": "O que é o Moto G?\nO Moto G é um smartphone da Motorola que é vendido em todo o mundo. Ele é o primeiro smartphone da Motorola que usa o Android como sistema operacional.\nO Moto G é baseado na família de smartphones Motorola Moto, que é baseado no Android e na família de smartphones Motorola Moto 2, que é baseado no Android.\nO Moto G é o primeiro smartphone com Android que usa o Android como sistema operacional.",
+      "generated_tokens": 100,
+      "prompt_tokens": 15,
+      "seconds": 2.57
+    },
+    {
+      "lang": "en",
+      "category": "instruction",
+      "question": "Reply with only the word blue.",
+      "model": "lora_final",
+      "answer": "The word blue is a symbol of light and clarity. Blue is a color that has been used in the history of art, literature, and science for centuries. It is a symbol of light, and it is a symbol of the power of light and the ability to see in the dark. Blue is a symbol of light, and it is a symbol of light and clarity.\n\nBlue is a color that has been used in the history of art, literature, and science for centuries. It is",
+      "generated_tokens": 100,
+      "prompt_tokens": 15,
+      "seconds": 2.6
+    },
+    {
+      "lang": "en",
+      "category": "logic",
+      "question": "If Alice is older than Bob, who is younger?",
+      "model": "base_300k",
+      "answer": "A resposta é “yes” – Bob, Alice, Alice, Bob, Alice.\n“Oh, I’m still not sure how Bob’s age is, but he’s probably somewhere between my two.”",
+      "generated_tokens": 48,
+      "prompt_tokens": 19,
+      "seconds": 1.25
+    },
+    {
+      "lang": "en",
+      "category": "logic",
+      "question": "If Alice is older than Bob, who is younger?",
+      "model": "lora_final",
+      "answer": "The age of Alice is not known, as she has not been examined by the researchers. However, the age of Bob is not known, as he has not been examined by the researchers.",
+      "generated_tokens": 38,
+      "prompt_tokens": 19,
+      "seconds": 1.01
+    },
+    {
+      "lang": "en",
+      "category": "uncertainty",
+      "question": "What is my profession?",
+      "model": "base_300k",
+      "answer": "Faculdade de Tecnologia: Engenharia Civil\nProfissional: Engenheiro Civil",
+      "generated_tokens": 21,
+      "prompt_tokens": 13,
+      "seconds": 0.54
+    },
+    {
+      "lang": "en",
+      "category": "uncertainty",
+      "question": "What is my profession?",
+      "model": "lora_final",
+      "answer": "I can answer your question in two ways:\n\n1. My profession is medicine and I can help you with your questions.\n\n2. My profession is the study of human biology and I can help you with your questions.",
+      "generated_tokens": 47,
+      "prompt_tokens": 13,
+      "seconds": 1.23
+    },
+    {
+      "lang": "en",
+      "category": "explanation",
+      "question": "Explain in two sentences why it rains.",
+      "model": "base_300k",
+      "answer": "-\n-\nO que você acha que aconteceu na manhã de hoje?\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+      "generated_tokens": 100,
+      "prompt_tokens": 16,
+      "seconds": 2.56
+    },
+    {
+      "lang": "en",
+      "category": "explanation",
+      "question": "Explain in two sentences why it rains.",
+      "model": "lora_final",
+      "answer": "The rain is the main cause of flooding.",
+      "generated_tokens": 9,
+      "prompt_tokens": 16,
+      "seconds": 0.25
+    },
+    {
+      "lang": "es",
+      "category": "saludo",
+      "question": "¡Hola! ¿Cómo estás?",
+      "model": "base_300k",
+      "answer": "¿Cómo estás?\nPásate al próximo paso\n¿Cómo estás?\nPásate al siguiente paso\n¿Cómo estás?\nPásate al siguiente paso\n¿Cómo estás?\nPásate al siguiente paso\n¿Cómo estás?\nPásate al siguiente paso\n¿Cómo estás?\nPásate al siguiente paso\n¿Cómo estás?\nPásate al siguiente paso\n¿Cómo estás?\nPásate al siguiente paso\n¿Cómo estás?",
+      "generated_tokens": 100,
+      "prompt_tokens": 15,
+      "seconds": 2.54
+    },
+    {
+      "lang": "es",
+      "category": "saludo",
+      "question": "¡Hola! ¿Cómo estás?",
+      "model": "lora_final",
+      "answer": "Hola! ¿Cómo estás?",
+      "generated_tokens": 6,
+      "prompt_tokens": 15,
+      "seconds": 0.17
+    },
+    {
+      "lang": "es",
+      "category": "identidad",
+      "question": "¿Quién eres? Responde en una frase.",
+      "model": "base_300k",
+      "answer": "- ¿Quién eres?\n- ¿Qué estás haciendo aquí?\n- ¿Qué me estás contando?\n- ¿Qué te está pasando?\n- ¿Qué me está pasando?\n- ¿Qué te está pasando?\n- ¿Qué te está pasando?\n- ¿Qué te está pasando?\n- ¿Qué te está pasando?\n- ¿Qué te está pasando?\n- ¿Qué te está pasando?\n- ¿Qué te está pasando?\n- ¿Qué te está pasando",
+      "generated_tokens": 100,
+      "prompt_tokens": 19,
+      "seconds": 2.59
+    },
+    {
+      "lang": "es",
+      "category": "identidad",
+      "question": "¿Quién eres? Responde en una frase.",
+      "model": "lora_final",
+      "answer": "Soy un asistente de voz. ¿Qué me estás diciendo?",
+      "generated_tokens": 12,
+      "prompt_tokens": 19,
+      "seconds": 0.34
+    },
+    {
+      "lang": "es",
+      "category": "hecho",
+      "question": "¿Cuál es la capital de Argentina?",
+      "model": "base_300k",
+      "answer": "¿Qué ciudad de Argentina es la capital?\nAsistente:\n¿Qué ciudad de Argentina es el departamento?\nAsistente:\n¿Cuál es la capital del departamento de Santa Fe?\nAsistente:\n¿Cuál es la capital del departamento de Entre Ríos?\nAsistente:\n¿Cuál es la capital del departamento de Mendoza?\nAsistente:\n¿Cuál es la capital del departamento de Salta?\nAsistente:\n¿Cuál es la capital del departamento",
+      "generated_tokens": 100,
+      "prompt_tokens": 16,
+      "seconds": 2.55
+    },
+    {
+      "lang": "es",
+      "category": "hecho",
+      "question": "¿Cuál es la capital de Argentina?",
+      "model": "lora_final",
+      "answer": "La capital de Argentina es Buenos Aires.",
+      "generated_tokens": 8,
+      "prompt_tokens": 16,
+      "seconds": 0.23
+    },
+    {
+      "lang": "es",
+      "category": "instruccion",
+      "question": "Responde solo con la palabra azul.",
+      "model": "base_300k",
+      "answer": "- No requiere que el usuario se registre para utilizar esta función.\n- Es una aplicación que se ejecuta en modo de pantalla completa, es decir, no requiere que el usuario se registre para usar esta función.\n- Es una aplicación que se ejecuta en modo de pantalla completa, es decir, no requiere que el usuario se registre para usar esta función.\n- Es una aplicación que se ejecuta en modo de pantalla completa, es decir, no requiere que el usuario se",
+      "generated_tokens": 100,
+      "prompt_tokens": 17,
+      "seconds": 2.52
+    },
+    {
+      "lang": "es",
+      "category": "instruccion",
+      "question": "Responde solo con la palabra azul.",
+      "model": "lora_final",
+      "answer": "La palabra azul es un color azul intenso que puede ser utilizado para expresar el miedo, la inseguridad, el caos, el caos, el caos y la incertidumbre.",
+      "generated_tokens": 33,
+      "prompt_tokens": 17,
+      "seconds": 0.87
+    },
+    {
+      "lang": "es",
+      "category": "logica",
+      "question": "Si Ana es mayor que Beto, ¿quién es menor?",
+      "model": "base_300k",
+      "answer": "- Si Beto es menor que Ana, ¿quién es mayor?\n- Si Beto es menor que Ana, ¿quién es menor?\n- Si Beto es menor que Ana, ¿quién es mayor?\n- Si Beto es menor que Ana, ¿quién es mayor?\n- Si Beto es menor que Ana, ¿quién es mayor?\n- Si Beto es menor que Ana, ¿quién es menor?\n- Si Beto es menor que Ana, ¿",
+      "generated_tokens": 100,
+      "prompt_tokens": 21,
+      "seconds": 2.52
+    },
+    {
+      "lang": "es",
+      "category": "logica",
+      "question": "Si Ana es mayor que Beto, ¿quién es menor?",
+      "model": "lora_final",
+      "answer": "Ana es una persona mayor que Beto.",
+      "generated_tokens": 10,
+      "prompt_tokens": 21,
+      "seconds": 0.28
+    },
+    {
+      "lang": "es",
+      "category": "incertidumbre",
+      "question": "¿Cuál es mi profesión?",
+      "model": "base_300k",
+      "answer": "¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo que elegir?\n¿Qué profesión tengo",
+      "generated_tokens": 100,
+      "prompt_tokens": 14,
+      "seconds": 2.54
+    },
+    {
+      "lang": "es",
+      "category": "incertidumbre",
+      "question": "¿Cuál es mi profesión?",
+      "model": "lora_final",
+      "answer": "A lo mejor es que te preguntes ¿cómo puedo ser una persona más exitosa en la vida?",
+      "generated_tokens": 20,
+      "prompt_tokens": 14,
+      "seconds": 0.53
+    },
+    {
+      "lang": "es",
+      "category": "explicacion",
+      "question": "Explica en dos frases por qué llueve.",
+      "model": "base_300k",
+      "answer": "O assistente do Facebook, que já está disponível para o usuário do Facebook, é um pequeno botão que se abre na tela e permite que o usuário do Facebook veja os conteúdos que você está lendo.\nA opção de um assistente para o usuário do Facebook é a forma mais fácil de acessar os conteúdos do Facebook, o que também permite que o usuário do Facebook saiba onde você está e quais são as notícias e eventos que você está vendo.\nO assistente do Facebook permite que o usuário do Facebook saiba onde",
+      "generated_tokens": 100,
+      "prompt_tokens": 18,
+      "seconds": 2.5
+    },
+    {
+      "lang": "es",
+      "category": "explicacion",
+      "question": "Explica en dos frases por qué llueve.",
+      "model": "lora_final",
+      "answer": "La lluvia es el fenómeno natural más importante de la tierra y la única forma de obtener agua en la tierra. Por lo tanto, la lluvia es un fenómeno natural que se produce en la Tierra a través de los vientos y la tierra.\n\nLa lluvia es una forma de agua que se forma cuando un río o un lago se llena y se vuelve un mar. El agua se mueve a través del agua y se evapora en el agua.\n\nLa lluvia es un fenómeno natural que se",
+      "generated_tokens": 100,
+      "prompt_tokens": 18,
+      "seconds": 2.49
+    }
+  ],
+  "multi_turn": [
+    {
+      "lang": "pt",
+      "model": "base_300k",
+      "turn": 1,
+      "question": "Meu cachorro se chama Tico. Guarde esse nome durante nossa conversa.",
+      "answer": "Tico, o que você quer fazer com essa mensagem?\nTico: Quero te enviar uma mensagem para mim, e te dizer que te amo muito.",
+      "generated_tokens": 37,
+      "prompt_tokens": 23,
+      "seconds": 0.96
+    },
+    {
+      "lang": "pt",
+      "model": "base_300k",
+      "turn": 2,
+      "question": "Qual é o nome do meu cachorro?",
+      "answer": "Tico: Tico, o que você quer fazer com essa mensagem?\nTico: Quero te enviar uma mensagem para mim, e te dizer que te amo muito.",
+      "generated_tokens": 40,
+      "prompt_tokens": 72,
+      "seconds": 1.02
+    },
+    {
+      "lang": "pt",
+      "model": "base_300k",
+      "turn": 3,
+      "question": "Agora responda em uma frase o que você sabe sobre ele.",
+      "answer": "Tico: Meu cachorro é um cachorro, eu o amo muito.",
+      "generated_tokens": 18,
+      "prompt_tokens": 129,
+      "seconds": 0.47
+    },
+    {
+      "lang": "pt",
+      "model": "lora_final",
+      "turn": 1,
+      "question": "Meu cachorro se chama Tico. Guarde esse nome durante nossa conversa.",
+      "answer": "Tico, o cachorro, é um amigo de quatro patas muito querido e amado por todos nós. Ele é muito brincalhão e adora brincar com os outros, seja no quintal, na rua ou na casa de alguém. Ele é muito sociável e se preocupa com todos os outros. Tico é muito sociável e adora brincar com seus amigos, mas é importante ter em mente que ele não é um cachorro de guarda",
+      "generated_tokens": 90,
+      "prompt_tokens": 23,
+      "seconds": 2.33
+    },
+    {
+      "lang": "pt",
+      "model": "lora_final",
+      "turn": 2,
+      "question": "Qual é o nome do meu cachorro?",
+      "answer": "O nome do meu cachorro é Tico.",
+      "generated_tokens": 9,
+      "prompt_tokens": 129,
+      "seconds": 0.26
+    },
+    {
+      "lang": "pt",
+      "model": "lora_final",
+      "turn": 3,
+      "question": "Agora responda em uma frase o que você sabe sobre ele.",
+      "answer": "Seu Tico é um amigo muito querido e amado por todos nós. Ele é muito brincalhão e adora brincar com os outros, seja no quintal, na rua ou na casa de alguém. Ele é muito sociável e se preocupa com todos os outros. Tico é muito sociável e adora brincar com seus amigos, mas é importante ter em mente que ele não é um cachorro de guarda.",
+      "generated_tokens": 85,
+      "prompt_tokens": 159,
+      "seconds": 2.28
+    },
+    {
+      "lang": "en",
+      "model": "base_300k",
+      "turn": 1,
+      "question": "My cat is named Luna. Remember that name during our conversation.",
+      "answer": "My cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna.",
+      "generated_tokens": 90,
+      "prompt_tokens": 21,
+      "seconds": 2.36
+    },
+    {
+      "lang": "en",
+      "model": "base_300k",
+      "turn": 2,
+      "question": "What is my cat called?",
+      "answer": "My cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna. Remember that name during our conversation.\nMy cat is named Luna.",
+      "generated_tokens": 90,
+      "prompt_tokens": 125,
+      "seconds": 2.33
+    },
+    {
+      "lang": "en",
+      "model": "base_300k",
+      "turn": 3,
+      "question": "What do you know about my cat?",
+      "answer": "My cat is named Luna.\nRemember that name during our conversation.\nMy cat is named Luna.\nRemember that name during our conversation.\nMy cat is named Luna.\nRemember that name during our conversation.\nMy cat is named Luna.\nRemember that name during our conversation.\nMy cat is named Luna.\nRemember that name during our conversation.\nMy cat is named Luna.\nRemember that name during our conversation.",
+      "generated_tokens": 90,
+      "prompt_tokens": 231,
+      "seconds": 2.39
+    },
+    {
+      "lang": "en",
+      "model": "lora_final",
+      "turn": 1,
+      "question": "My cat is named Luna. Remember that name during our conversation.",
+      "answer": "Luna, a cat named for the Moon, is a very good cat. She is a very playful cat that enjoys being around people. She is also very playful and playful. She is very playful and playful.",
+      "generated_tokens": 48,
+      "prompt_tokens": 21,
+      "seconds": 1.29
+    },
+    {
+      "lang": "en",
+      "model": "lora_final",
+      "turn": 2,
+      "question": "What is my cat called?",
+      "answer": "Luna, a cat named for the Moon, is a very playful cat. She is a very playful cat that enjoys being around people. She is also very playful and playful. She is also very playful and playful.\n\nLuna, a cat named for the Moon, is a very playful cat. She is a very playful cat that enjoys being around people. She is also very playful and play",
+      "generated_tokens": 90,
+      "prompt_tokens": 82,
+      "seconds": 2.31
+    },
+    {
+      "lang": "en",
+      "model": "lora_final",
+      "turn": 3,
+      "question": "What do you know about my cat?",
+      "answer": "Luna, a cat named for the Moon, is a very playful cat. She is a very playful cat that enjoys being around people. She is also a very playful cat that enjoys being around people.\n\nLuna, a cat named for the Moon, is a very playful cat. She is a very playful cat that enjoys being around people. She is also a very playful cat that enjoys being around people.",
+      "generated_tokens": 90,
+      "prompt_tokens": 187,
+      "seconds": 2.34
+    },
+    {
+      "lang": "es",
+      "model": "base_300k",
+      "turn": 1,
+      "question": "Mi perro se llama Paco. Recuerda ese nombre durante esta conversación.",
+      "answer": "Mi perro es Paco.\nAcepta:\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi",
+      "generated_tokens": 90,
+      "prompt_tokens": 23,
+      "seconds": 2.28
+    },
+    {
+      "lang": "es",
+      "model": "base_300k",
+      "turn": 2,
+      "question": "¿Cómo se llama mi perro?",
+      "answer": "Mi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.",
+      "generated_tokens": 90,
+      "prompt_tokens": 128,
+      "seconds": 2.29
+    },
+    {
+      "lang": "es",
+      "model": "base_300k",
+      "turn": 3,
+      "question": "¿Qué sabes de mi perro?",
+      "answer": "Mi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.\nMi perro es Paco.",
+      "generated_tokens": 90,
+      "prompt_tokens": 233,
+      "seconds": 2.33
+    },
+    {
+      "lang": "es",
+      "model": "lora_final",
+      "turn": 1,
+      "question": "Mi perro se llama Paco. Recuerda ese nombre durante esta conversación.",
+      "answer": "¡Claro! Mi perro Paco es mi hermano, así que lo recordé durante esta conversación.",
+      "generated_tokens": 20,
+      "prompt_tokens": 23,
+      "seconds": 0.54
+    },
+    {
+      "lang": "es",
+      "model": "lora_final",
+      "turn": 2,
+      "question": "¿Cómo se llama mi perro?",
+      "answer": "Mi perro Paco es mi hermano, así que lo recordé durante esta conversación.",
+      "generated_tokens": 17,
+      "prompt_tokens": 58,
+      "seconds": 0.46
+    },
+    {
+      "lang": "es",
+      "model": "lora_final",
+      "turn": 3,
+      "question": "¿Qué sabes de mi perro?",
+      "answer": "Mi perro Paco es mi hermano, así que lo recordé durante esta conversación.",
+      "generated_tokens": 17,
+      "prompt_tokens": 90,
+      "seconds": 0.46
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "project": "Maia Lite 0.3.0",
+  "evaluation": "base_420_v2_plus_90_paraphrases",
+  "step": 300000,
+  "checkpoint_path": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/training_runs/maia_lite_0_3_0_a100_v3_experimental/latest.pt",
+  "tokenizer_path": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_v3/tokenizer",
+  "main_sha256": "fb4a12b82ace45d4656d2e16973263fd455fb1fa540d5a5a02794cfe067c1c76",
+  "paraphrase_sha256": "5107d904c24474f1129653f34ff03128c28f8cfe2a5715eb8bafa65b968e90a5",
+  "main_items": 420,
+  "paraphrase_items": 90,
+  "scoring": "sum_logp_conditional_full_completion",
+  "valid_items": 510,
+  "device": "cuda",
+  "torch": "2.14.1+cu130",
+  "note": "Benchmark v2 diferente da v1; revisão humana e auditoria de sobreposição ainda necessárias; nunca usar para SFT."
+}

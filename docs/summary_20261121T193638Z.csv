@@ -1,0 +1,10 @@
+category,language,temperature,n,accuracy,avg_seconds,avg_repetition
+codigo,pt,0.0,5,0.0,0.9444000000000001,0.16
+espanhol,es,0.0,8,0.25,1.183125,0.00635
+factual,pt,0.0,8,0.625,0.553875,0.0
+ingles,en,0.0,8,0.25,1.27675,0.0666125
+instrucao_estrita,pt,0.0,8,0.0,0.871875,0.0
+logica,pt,0.0,8,0.625,0.49424999999999997,0.046875
+matematica,pt,0.0,8,0.0,0.536625,0.0456375
+parafrase,pt,0.0,5,0.4,0.5871999999999999,0.02858
+robustez_instrucao,pt,0.0,5,0.0,0.9416,0.05714

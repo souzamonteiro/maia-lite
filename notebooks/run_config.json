@@ -1,0 +1,29 @@
+{
+  "base_checkpoint": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/training_runs/maia_lite_0_3_0_a100_v3_experimental/latest.pt",
+  "adapter": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/training_runs/maia_lite_0_3_0_sft_v2_2_lora_v1/adapter_best.pt",
+  "adapter_step": 1800,
+  "adapter_val_loss": 2.319600362225873,
+  "benchmark_sha256": "b3b00c307ec260aa333af0de77355eae3d75c3d442fb05df63b890dc7a0f612f",
+  "seed": 20261118,
+  "max_new_tokens": 96,
+  "temperature": 0.7,
+  "top_k": 40,
+  "top_p": 0.9,
+  "repetition_penalty": 1.18,
+  "quick_mode": false,
+  "strategies": {
+    "greedy": {
+      "sample": false,
+      "repetition_penalty": 1.0
+    },
+    "topk_topp": {
+      "sample": true,
+      "repetition_penalty": 1.0
+    },
+    "topk_topp_rep": {
+      "sample": true,
+      "repetition_penalty": 1.18
+    }
+  },
+  "run_id": "283ed26ff9067dc3"
+}

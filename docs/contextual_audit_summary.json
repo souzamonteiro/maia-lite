@@ -1,0 +1,26 @@
+{
+  "audit": "maia_sft_contextual_v2",
+  "status": "AUTOMATED_TRIAGE_COMPLETE_HUMAN_FACTUAL_REVIEW_PENDING",
+  "sample_size": 420,
+  "source_file": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/audits/sft_v2_2_v2_3_qualitative_v1/human_review_corpus.csv",
+  "benchmark_file": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/benchmarks/sft_v2_2_vs_v2_3/paired_responses.csv",
+  "counts_by_priority": {
+    "medium": 221,
+    "low": 179,
+    "high": 20
+  },
+  "counts_by_language": {
+    "en": 140,
+    "es": 140,
+    "pt": 140
+  },
+  "context_flagged": 5,
+  "repetition_flagged": 143,
+  "benchmark_exploratory_links": 133,
+  "caveats": [
+    "Sample is risk-enriched; percentages cannot be extrapolated to full corpus.",
+    "Heuristics do not establish factual errors.",
+    "Lexical benchmark links do not establish training causality.",
+    "No corpus records were modified or removed."
+  ]
+}

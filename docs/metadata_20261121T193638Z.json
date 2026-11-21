@@ -1,0 +1,19 @@
+{
+  "model": "Maia Lite 0.3.0",
+  "base_checkpoint": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/training_runs/maia_lite_0_3_0_a100_v3_experimental/latest.pt",
+  "adapter_checkpoint": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_3_0_Chat/training_runs/maia_lite_0_3_0_sft_full_linear_v2/adapter_latest.pt",
+  "adapter_update": 5744,
+  "profile": "core",
+  "temperatures": [
+    0.0
+  ],
+  "repeats": 1,
+  "max_new_tokens": 56,
+  "repetition_penalty": 1.1,
+  "prompt_template": "Usuário: {question}\nAssistente:\n",
+  "question_count": 63,
+  "total_generations": 63,
+  "torch": "2.14.1+cu130",
+  "timestamp_utc": "20261121T193638Z",
+  "notes": "Scores automáticos indicativos; revisar manualmente; nenhuma conversão ou treinamento"
+}

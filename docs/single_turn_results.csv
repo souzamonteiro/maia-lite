@@ -1,0 +1,197 @@
+lang,category,question,model,answer,generated_tokens,prompt_tokens,seconds
+pt,saudacao,Olá! Como você está?,base_300k,"Olá!
+Vou começar com a primeira parte.
+No meu caso, eu estou usando o Gmail e a minha conta do Google+, e eu tenho o e-mail do Google+.
+Mas eu preciso de um nome de usuário e uma senha, então eu preciso de um nome de usuário e uma senha, e eu preciso de uma senha e um nome de usuário.
+Eu preciso de uma senha e um nome de usuário, e eu preciso de um nome de usuário e",100,15,2.56
+pt,saudacao,Olá! Como você está?,lora_final,"Olá, eu sou um assistente virtual, capaz de interagir com você em tempo real, através de comandos de voz e comandos de texto.",29,15,0.77
+pt,identidade,Quem é você? Responda em uma frase.,base_300k,"- O que você acha de um novo app?
+- O que você acha de um app que você possa usar para falar com outros usuários?
+- O que você acha de um app que possa ser usado como uma ferramenta de comunicação?
+- O que você acha de um app que possa ser usado como um recurso de pesquisa?
+- O que você acha de um app que possa ser usado como um recurso de aprendizagem?
+- O que você acha de um app que possa ser usado como",100,18,2.58
+pt,identidade,Quem é você? Responda em uma frase.,lora_final,"Sou uma máquina, um computador, um computador.",10,18,0.28
+pt,fato,Qual é a capital do Brasil?,base_300k,"Cidade:
+Estado:
+País:
+Estado:
+País:",21,15,0.54
+pt,fato,Qual é a capital do Brasil?,lora_final,"A capital do Brasil é Brasília, capital do Brasil.",11,15,0.31
+pt,instrucao,Diga apenas a palavra azul.,base_300k,"Para a pesquisa, digite o nome da pessoa que você quer encontrar e clique em “Fechar pesquisa”.
+Se você quer que seu nome apareça na lista de resultados, clique em “Fechar pesquisa”.
+Você verá as pesquisas que você fez com os resultados.
+A pesquisa já está aberta e você pode clicar em “Fechar pesquisa” e confirmar a pesquisa.
+Se você quer que seu nome apareça na lista de resultados, clique em “Fechar",100,15,2.52
+pt,instrucao,Diga apenas a palavra azul.,lora_final,"A palavra azul é uma cor azul-esverdeada, e é a mais associada à vida em cores.",22,15,0.58
+pt,logica,"Se Ana é mais velha que Bia, quem é mais nova?",base_300k,"Sonia
+Atenção: É importante que você seja capaz de responder a todas as perguntas e também seja capaz de responder às perguntas de Ana. Se você não conseguir, será reprovado.
+O que você quer dizer com o verbo “assim”?
+Em outras palavras, o verbo “assim” tem dois significados diferentes:
+– “assim” – “comum”
+– “comum” – “comum”
+– “assim” – “comum",100,22,2.57
+pt,logica,"Se Ana é mais velha que Bia, quem é mais nova?",lora_final,Ana é mais velha que Bia.,9,22,0.26
+pt,incerteza,Qual é a minha profissão?,base_300k,Qual é a minha profissão?,10,14,0.25
+pt,incerteza,Qual é a minha profissão?,lora_final,"A profissão de assistente administrativo é uma das profissões mais populares na área de tecnologia da informação e é uma das mais antigas do mundo. A profissão de assistente administrativo é uma das mais antigas e mais antigas do mundo, sendo que a profissão de assistente administrativo se originou nos anos 60.",57,14,1.48
+pt,explicacao,Explique em duas frases por que chove.,base_300k,"O que você acha que aconteceu na sua sala?
+Desenvolvedor:
+Qual foi a sua reação ao ter que deixar o seu computador na chuva?",36,18,0.92
+pt,explicacao,Explique em duas frases por que chove.,lora_final,As chuvas são causadas pelo vento.,7,18,0.21
+en,greeting,Hello! How are you?,base_300k,Hello! How are you?,11,15,0.27
+en,greeting,Hello! How are you?,lora_final,I'm a language model that is trained to learn by listening and learning. I have a natural ability to learn by listening and learning and I can understand different languages and understand different types of languages.,39,15,1.03
+en,identity,Who are you? Answer in one sentence.,base_300k,"A história começa quando o personagem de Alex, entra em uma loja de acessórios e encontra um homem com um telefone. Ele pergunta quem é o homem.
+O que o homem tem a dizer?
+Alex fala que é o homem, que mora com ele e que o tem como um irmão.
+Alex diz que o homem que está na loja é o pai dele, que trabalha lá.
+O homem fala que o pai dele é um homem que vive com ele, que trabalha com ele e que",100,17,2.55
+en,identity,Who are you? Answer in one sentence.,lora_final,"I am a person who works for a company called Microsoft. I am a professional and I am here to help. I am here to help you with your problems, but also for advice.",38,17,1.01
+en,fact,What is the capital of France?,base_300k,"- Como você sabe que o seu nome é J.
+Aviso:
+O site da empresa J. J. B. B. é o seguinte:
+""O J. J. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B. B",100,15,2.58
+en,fact,What is the capital of France?,lora_final,"The capital of France is Paris. It is a major city in northern France, located in the south-eastern region of France. It is located on the Mediterranean Sea in the western part of France, at an altitude of about 1,560 meters (4,413 feet). It is situated on the French mainland, which is situated in the Atlantic Ocean, in the Mediterranean Sea. The capital of France is located on the left side of the Mediterranean Sea, on the west coast of France",100,15,2.57
+en,instruction,Reply with only the word blue.,base_300k,"O que é o Moto G?
+O Moto G é um smartphone da Motorola que é vendido em todo o mundo. Ele é o primeiro smartphone da Motorola que usa o Android como sistema operacional.
+O Moto G é baseado na família de smartphones Motorola Moto, que é baseado no Android e na família de smartphones Motorola Moto 2, que é baseado no Android.
+O Moto G é o primeiro smartphone com Android que usa o Android como sistema operacional.",100,15,2.57
+en,instruction,Reply with only the word blue.,lora_final,"The word blue is a symbol of light and clarity. Blue is a color that has been used in the history of art, literature, and science for centuries. It is a symbol of light, and it is a symbol of the power of light and the ability to see in the dark. Blue is a symbol of light, and it is a symbol of light and clarity.
+
+Blue is a color that has been used in the history of art, literature, and science for centuries. It is",100,15,2.6
+en,logic,"If Alice is older than Bob, who is younger?",base_300k,"A resposta é “yes” – Bob, Alice, Alice, Bob, Alice.
+“Oh, I’m still not sure how Bob’s age is, but he’s probably somewhere between my two.”",48,19,1.25
+en,logic,"If Alice is older than Bob, who is younger?",lora_final,"The age of Alice is not known, as she has not been examined by the researchers. However, the age of Bob is not known, as he has not been examined by the researchers.",38,19,1.01
+en,uncertainty,What is my profession?,base_300k,"Faculdade de Tecnologia: Engenharia Civil
+Profissional: Engenheiro Civil",21,13,0.54
+en,uncertainty,What is my profession?,lora_final,"I can answer your question in two ways:
+
+1. My profession is medicine and I can help you with your questions.
+
+2. My profession is the study of human biology and I can help you with your questions.",47,13,1.23
+en,explanation,Explain in two sentences why it rains.,base_300k,"-
+-
+O que você acha que aconteceu na manhã de hoje?
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-",100,16,2.56
+en,explanation,Explain in two sentences why it rains.,lora_final,The rain is the main cause of flooding.,9,16,0.25
+es,saludo,¡Hola! ¿Cómo estás?,base_300k,"¿Cómo estás?
+Pásate al próximo paso
+¿Cómo estás?
+Pásate al siguiente paso
+¿Cómo estás?
+Pásate al siguiente paso
+¿Cómo estás?
+Pásate al siguiente paso
+¿Cómo estás?
+Pásate al siguiente paso
+¿Cómo estás?
+Pásate al siguiente paso
+¿Cómo estás?
+Pásate al siguiente paso
+¿Cómo estás?
+Pásate al siguiente paso
+¿Cómo estás?",100,15,2.54
+es,saludo,¡Hola! ¿Cómo estás?,lora_final,Hola! ¿Cómo estás?,6,15,0.17
+es,identidad,¿Quién eres? Responde en una frase.,base_300k,"- ¿Quién eres?
+- ¿Qué estás haciendo aquí?
+- ¿Qué me estás contando?
+- ¿Qué te está pasando?
+- ¿Qué me está pasando?
+- ¿Qué te está pasando?
+- ¿Qué te está pasando?
+- ¿Qué te está pasando?
+- ¿Qué te está pasando?
+- ¿Qué te está pasando?
+- ¿Qué te está pasando?
+- ¿Qué te está pasando?
+- ¿Qué te está pasando",100,19,2.59
+es,identidad,¿Quién eres? Responde en una frase.,lora_final,Soy un asistente de voz. ¿Qué me estás diciendo?,12,19,0.34
+es,hecho,¿Cuál es la capital de Argentina?,base_300k,"¿Qué ciudad de Argentina es la capital?
+Asistente:
+¿Qué ciudad de Argentina es el departamento?
+Asistente:
+¿Cuál es la capital del departamento de Santa Fe?
+Asistente:
+¿Cuál es la capital del departamento de Entre Ríos?
+Asistente:
+¿Cuál es la capital del departamento de Mendoza?
+Asistente:
+¿Cuál es la capital del departamento de Salta?
+Asistente:
+¿Cuál es la capital del departamento",100,16,2.55
+es,hecho,¿Cuál es la capital de Argentina?,lora_final,La capital de Argentina es Buenos Aires.,8,16,0.23
+es,instruccion,Responde solo con la palabra azul.,base_300k,"- No requiere que el usuario se registre para utilizar esta función.
+- Es una aplicación que se ejecuta en modo de pantalla completa, es decir, no requiere que el usuario se registre para usar esta función.
+- Es una aplicación que se ejecuta en modo de pantalla completa, es decir, no requiere que el usuario se registre para usar esta función.
+- Es una aplicación que se ejecuta en modo de pantalla completa, es decir, no requiere que el usuario se",100,17,2.52
+es,instruccion,Responde solo con la palabra azul.,lora_final,"La palabra azul es un color azul intenso que puede ser utilizado para expresar el miedo, la inseguridad, el caos, el caos, el caos y la incertidumbre.",33,17,0.87
+es,logica,"Si Ana es mayor que Beto, ¿quién es menor?",base_300k,"- Si Beto es menor que Ana, ¿quién es mayor?
+- Si Beto es menor que Ana, ¿quién es menor?
+- Si Beto es menor que Ana, ¿quién es mayor?
+- Si Beto es menor que Ana, ¿quién es mayor?
+- Si Beto es menor que Ana, ¿quién es mayor?
+- Si Beto es menor que Ana, ¿quién es menor?
+- Si Beto es menor que Ana, ¿",100,21,2.52
+es,logica,"Si Ana es mayor que Beto, ¿quién es menor?",lora_final,Ana es una persona mayor que Beto.,10,21,0.28
+es,incertidumbre,¿Cuál es mi profesión?,base_300k,"¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo que elegir?
+¿Qué profesión tengo",100,14,2.54
+es,incertidumbre,¿Cuál es mi profesión?,lora_final,A lo mejor es que te preguntes ¿cómo puedo ser una persona más exitosa en la vida?,20,14,0.53
+es,explicacion,Explica en dos frases por qué llueve.,base_300k,"O assistente do Facebook, que já está disponível para o usuário do Facebook, é um pequeno botão que se abre na tela e permite que o usuário do Facebook veja os conteúdos que você está lendo.
+A opção de um assistente para o usuário do Facebook é a forma mais fácil de acessar os conteúdos do Facebook, o que também permite que o usuário do Facebook saiba onde você está e quais são as notícias e eventos que você está vendo.
+O assistente do Facebook permite que o usuário do Facebook saiba onde",100,18,2.5
+es,explicacion,Explica en dos frases por qué llueve.,lora_final,"La lluvia es el fenómeno natural más importante de la tierra y la única forma de obtener agua en la tierra. Por lo tanto, la lluvia es un fenómeno natural que se produce en la Tierra a través de los vientos y la tierra.
+
+La lluvia es una forma de agua que se forma cuando un río o un lago se llena y se vuelve un mar. El agua se mueve a través del agua y se evapora en el agua.
+
+La lluvia es un fenómeno natural que se",100,18,2.49

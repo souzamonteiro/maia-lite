@@ -1,0 +1,28 @@
+{
+  "project": "Maia Lite 0.3.0",
+  "purpose": "scientific_sft_preparation",
+  "version": "v1",
+  "created_utc": "2026-11-18T11:08:28.518034+00:00",
+  "inputs": {
+    "train-pairs.jsonl": "654727554d565a324d1e211dd45b19e4a3991d23f6cccc44e29a227031ed6674",
+    "raw.jsonl": "62175793aac19d1e6278e9a2201a3edb0b44dfa5f6c2e5746a3a4ad9b84e38f5"
+  },
+  "seed": 20261118,
+  "split_unit": "paperId",
+  "validation_fraction_target": 0.1,
+  "train_records": 2439,
+  "validation_records": 273,
+  "train_groups": 813,
+  "validation_groups": 91,
+  "train_papers": 392,
+  "validation_papers": 44,
+  "structural_issues": 0,
+  "heuristic_flags": 488,
+  "warning": "Not scientifically validated by this notebook. Human evidence and license audit remain necessary. Internal validation is not an independent test.",
+  "outputs_sha256": {
+    "audit_flags.csv": "db51a7c41af5c13a86985963f957556a223add73ef58de0f608c0f10cb951b7c",
+    "provenance_all.jsonl": "b58c76e4868ff6f5fcb8b8fb34dcfece472b6c084fd01cf0ac325870ccf5a168",
+    "sft_train.jsonl": "87e154fb698c3023d9255fd3b28b7f060da7240e761104b1913406b5dc03e942",
+    "sft_validation.jsonl": "19af12cdc12fa7ffddc951aff38343f74d09ad93f5817756bd04c3b00843e29a"
+  }
+}
