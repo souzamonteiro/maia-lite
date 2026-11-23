@@ -1,0 +1,62 @@
+{
+  "audit_version": "0.7",
+  "timestamp_utc": "20261123T004038Z",
+  "source_path": "/content/drive/MyDrive/Colab_LLMs/Maia_Lite_0_4_0/maia-corpus-v9/gutenberg_v06",
+  "note": "Audit only. No rights clearance, no corpus inclusion, no tokenizer counts.",
+  "languages": [
+    {
+      "language": "pt",
+      "manifest_saved_rows": 10,
+      "unique_sha": 10,
+      "valid_integrity": 10,
+      "failed_integrity": 0,
+      "total_bytes": 1334614,
+      "total_characters": 1314489,
+      "mean_characters": 131448.9,
+      "median_characters": 99401.0,
+      "min_characters": 24279,
+      "max_characters": 336922,
+      "start_markers": 10,
+      "end_markers": 0,
+      "possible_header_footer": 10
+    },
+    {
+      "language": "en",
+      "manifest_saved_rows": 10,
+      "unique_sha": 10,
+      "valid_integrity": 10,
+      "failed_integrity": 0,
+      "total_bytes": 3790101,
+      "total_characters": 3763144,
+      "mean_characters": 376314.4,
+      "median_characters": 340631.0,
+      "min_characters": 52296,
+      "max_characters": 876469,
+      "start_markers": 10,
+      "end_markers": 0,
+      "possible_header_footer": 10
+    },
+    {
+      "language": "es",
+      "manifest_saved_rows": 10,
+      "unique_sha": 10,
+      "valid_integrity": 10,
+      "failed_integrity": 0,
+      "total_bytes": 5943417,
+      "total_characters": 5810281,
+      "mean_characters": 581028.1,
+      "median_characters": 421108.0,
+      "min_characters": 57510,
+      "max_characters": 2260765,
+      "start_markers": 10,
+      "end_markers": 0,
+      "possible_header_footer": 10
+    }
+  ],
+  "manifest_issues": [],
+  "repeated_id_with_different_hash": [],
+  "duplicate_manifest_sha": [],
+  "orphans": [],
+  "integrity_failures": [],
+  "rights_approved_count": 0
+}
