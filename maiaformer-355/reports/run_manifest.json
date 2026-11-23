@@ -1,0 +1,86 @@
+{
+  "project": "Maia Corpus v9",
+  "phase": "pilot audit",
+  "version": "0.2",
+  "created_utc": "2026-11-22T20:22:01.734988+00:00",
+  "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "seed": 20261122,
+  "max_scan_per_domain": 10000,
+  "max_accept_per_domain": 2000,
+  "allowed_license_identifiers": [
+    "0BSD",
+    "Apache-2.0",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "CC-BY-4.0",
+    "CC-BY-SA-4.0",
+    "CC0-1.0",
+    "MIT",
+    "Unlicense"
+  ],
+  "fine_math_excluded": true,
+  "files": {
+    "accepted/books.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "accepted/code.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "accepted/math.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "quarantine/books_reasons.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "quarantine/code_reasons.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "quarantine/math_reasons.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "raw_manifest/candidate_sources.json": {
+      "sha256": "01e455c755a0e1c2f86e5d4396fd3567f6eca98806d8fec143b8662fbdb3b537",
+      "bytes": 1204
+    },
+    "reports/pilot_summary.json": {
+      "sha256": "a98816a5c1274c3166d661a2ad045ac53532245342a46db9eab02a82a2e7ec3f",
+      "bytes": 321
+    }
+  },
+  "summary": [
+    {
+      "domain": "math",
+      "examined": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {}
+    },
+    {
+      "domain": "code",
+      "examined": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {}
+    },
+    {
+      "domain": "books",
+      "examined": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {}
+    }
+  ],
+  "limitations": [
+    "metadata allowlist is not legal review",
+    "exact dedup only",
+    "no cross-corpus v8 dedup",
+    "approx token counts are not tokenizer counts"
+  ]
+}

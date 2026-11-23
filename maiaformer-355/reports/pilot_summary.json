@@ -1,0 +1,23 @@
+[
+  {
+    "domain": "math",
+    "examined": 0,
+    "accepted": 0,
+    "rejected": 0,
+    "reasons": {}
+  },
+  {
+    "domain": "code",
+    "examined": 0,
+    "accepted": 0,
+    "rejected": 0,
+    "reasons": {}
+  },
+  {
+    "domain": "books",
+    "examined": 0,
+    "accepted": 0,
+    "rejected": 0,
+    "reasons": {}
+  }
+]
